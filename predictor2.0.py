@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 friends_tot = float(input("请输入好友总人数："))
 like_rate = float(input("请输入动态内容吸引力（好友看见后点赞概率）（0~1间小数）"))
 see_rate = float(input("好友打开朋友圈频率（一天打开朋友圈多少次）"))
-tpoint = float(input("上传动态的时间点（24小时制）"))
+tpoint = float(input("上传动态的时间点（输入小时数且为整数）（24小时制）"))
 nightowl_rate = float(input("夜猫子在朋友中的占比（0点-6点看朋友圈的称为夜猫子)"))
 
 
