@@ -23,7 +23,7 @@ for i in range(0, friend_tot):
         continue
     elif ftp[i] > 24:
         break
-    y[int(ftp[i])] += 1
+    y[ftp[i]] += 1
 
 
 plt.plot(x, y)
